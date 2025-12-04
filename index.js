@@ -32,11 +32,27 @@ console.log(c);
 //function declaration
 
 function waifu(name1, name2, name3) {
-    alert("Hello World!");
+    console.log("Hello World!");
     console.log("Waifu list:", name1, name2, name3);
 }
 
 waifu("Nabila", "Audrey", "Alexandra");
+
+// function parameters
+function runExample(parameter) {
+    console.log(parameter);
+}
+
+const argument = "Hello";
+
+runExample(argument);
+
+// 2
+function showMessage(name = "Alter", greeting = "Helloww") {
+    console.log(`${greeting}, ${name}`)
+}
+
+showMessage()
 
 
  
