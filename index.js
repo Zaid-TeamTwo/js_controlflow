@@ -21,3 +21,10 @@ let employee = getEmployeeOfTheMonth();
 console.log("Restaurant:", nameRestaurant);
 console.log("Ingredients:", ingredients);
 console.log("Employee of The Month:", employee.name, "- Age", employee.age);
+
+
+a = 8;
+b = 10;
+c = a*b;
+
+console.log(c);
