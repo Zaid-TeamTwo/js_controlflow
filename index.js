@@ -28,3 +28,15 @@ b = 10;
 c = a*b;
 
 console.log(c);
+
+//function declaration
+
+function waifu(name1, name2, name3) {
+    alert("Hello World!");
+    console.log("Waifu list:", name1, name2, name3);
+}
+
+waifu("Nabila", "Audrey", "Alexandra");
+
+
+ 
